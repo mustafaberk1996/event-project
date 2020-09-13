@@ -1,14 +1,15 @@
-Kotlin ile geliştirilmiştir.
+**Kotlin ile geliştirilmiştir.**
 
-Kullanılan Kütüphanler:
+# Kullanılan Kütüphanler:
 
-Retrofit
-Gson
-Glide
-Circleimageview
-Realm
+- Retrofit
+- Gson
+- Glide
+- Circleimageview
+- Realm
 
-classlar ve metotlar burada açıklanacaktır.
+
+# Methods
 
 getEventList()
 ----------------------------------
@@ -29,6 +30,8 @@ API üzerinden dönen data list'i local database'e kaydeder, öncesinde var olan
 fun showDataOnList(eventList: MutableList<Event>, totalDataCount: Int) 
 -------------------------------------------------------------------------
 Elde edilen data list'i ekran üzerinde gösterir ve sayfa numaralarını oluşturur
+ 
+# Interfaces
 
 EventListItemClickListener
 ----------------------------
@@ -42,6 +45,7 @@ fun itemClick(position: Int)
 ----------------------------
 Sayfa numaralarına tıklanılma durumunu ele alan ClickListener. itemClick metodu parametre olarak tıklanılan pozisyonun index değerini alır
 
+# Classes
 
 Base
 ------
